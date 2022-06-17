@@ -1,0 +1,13 @@
+/* basic CSS stylesheet */
+body { background-color: white; }
+h1, h2, h3, h4, h5, h6, h7 { text-align: left; font-family: “Ubuntu”, "Noto Sans", "Roboto"; font-size: larger; border-style: "solid"; border-width: "1px"; border-color: "black"; border-radius: "12"; padding: "6px"; margin:"45px, 0px, 100px, 40px";}
+h1 { color:"white"; background-color:"black"; width: "100%";}
+p { text-align: center; font-family: "Raleway", "Noto Sans", "Roboto" ; font-size: medium; border-left: "3px solid black";}
+/* when creating colors if you use rgba or hsla use a decimal point on the fouth digit to determine transparentcy. ex: rgba(224, 43, 58, {this digit will determine transparentcy} 0.2)*/
+
+#body {}
+.body {}
+body {
+    background-image: url(' ')}
+/* dont add a space between the property value and the unit.
+ex: margin-left: 20 px is wrong margin-left: 20px would be right*/
